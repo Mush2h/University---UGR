@@ -4,7 +4,7 @@ using namespace std;
 int main () {
 	
 	double capital;
-    double interes;	// declaramos las variables
+    	double interes;	// declaramos las variables
 	double total;
 	
 	cout<<"Introduzca el capital:";			
