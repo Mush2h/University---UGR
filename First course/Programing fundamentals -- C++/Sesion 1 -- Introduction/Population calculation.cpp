@@ -27,15 +27,15 @@ int main () {
  	 
  	operacion1= inicial+ ((natalidad - mortalidad + migracion )* 0.001 * inicial);
  	operacion2= inicial+ ((natalidad - mortalidad + migracion )* 0.001 * operacion1);
-    operacion3= inicial+ ((natalidad - mortalidad + migracion )* 0.001 * operacion2);
+    	operacion3= inicial+ ((natalidad - mortalidad + migracion )* 0.001 * operacion2);
     
-    d_inicial = inicial *2 ;
-    operacion4 =inicial;
+    	d_inicial = inicial *2 ;
+    	operacion4 =inicial;
     
     while (tope==anio){
     	tope -- ;
     	operacion1= inicial+ ((natalidad - mortalidad + migracion )* 0.001 * inicial);
- 	    operacion2= inicial+ ((natalidad - mortalidad + migracion )* 0.001 * operacion1);
+ 	operacion2= inicial+ ((natalidad - mortalidad + migracion )* 0.001 * operacion1);
         operacion3= inicial+ ((natalidad - mortalidad + migracion )* 0.001 * operacion2);
     }; //repetir la operacion tantos a�os haya 
     
